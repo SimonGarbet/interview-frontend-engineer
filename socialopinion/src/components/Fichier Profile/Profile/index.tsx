@@ -15,7 +15,9 @@ function Profile({ usersList, userScope }: profileProps) {
 
   return (
     <div className={styles.profile}>
+      
         <h5>{userInformations?.username}</h5>
+
         <div>
           <InfoUser 
           titleInformation='Nom'

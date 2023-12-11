@@ -11,9 +11,7 @@ function BackButton({ postsList, switchPostsUser }: profileProps) {
 
 
   return (
-    <div className={styles.backbutton}>
         <button className={styles.switchButton} onClick={() => switchPostsUser('postsON', 1, postsList)}>Revenir sur les posts</button>
-    </div>
   );
 
 
