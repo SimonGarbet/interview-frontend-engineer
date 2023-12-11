@@ -21,12 +21,15 @@ function ProfilePage({ postsList, usersList, userVisibility, switchPostsUser, us
 
     <section style={{display : userVisibility ? 'block' : 'none'}}>
 
-    <BackButton 
-    postsList={postsList}
-    switchPostsUser={switchPostsUser}
-    />
+      <BackButton 
+      postsList={postsList}
+      switchPostsUser={switchPostsUser}
+      />
 
-    <Profile informations={usersList?.find((user) => user.id === userScope)}/>
+      <Profile 
+      usersList={usersList}
+      userScope = {userScope}
+      />
 
 
     <PostList 
