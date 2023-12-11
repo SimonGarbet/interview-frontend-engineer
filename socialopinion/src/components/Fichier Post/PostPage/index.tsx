@@ -1,7 +1,5 @@
 import React, {useState} from 'react';
 
-import styles from './postPage.module.css';
-
 import PostList from '../PostList';
 import Searchbar from '../Searchbar';
 

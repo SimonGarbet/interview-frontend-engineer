@@ -1,5 +1,3 @@
-import styles from './profilePage.module.css';
-
 import PostList from '../../Fichier Post/PostList';
 import Profile from '../Profile';
 import BackButton from '../BackButton';

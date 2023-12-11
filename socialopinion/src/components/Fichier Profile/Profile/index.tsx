@@ -1,5 +1,7 @@
 import styles from './profile.module.css';
 
+import InfoUser from '../InfoUser'
+
 import { userObject } from '../../../types/Type';
 
   type profileProps = {
@@ -15,9 +17,21 @@ function Profile({ usersList, userScope }: profileProps) {
     <div className={styles.profile}>
         <h5>{userInformations?.username}</h5>
         <div>
-        <h6><span>Nom :</span> {userInformations?.name}</h6>
-        <h6><span>Email :</span> {userInformations?.email}</h6>
-        <h6><span>Site Web :</span> {userInformations?.website}</h6>
+          <InfoUser 
+          titleInformation='Nom'
+          userInformation= {userInformations?.name}
+          />
+
+        <InfoUser 
+          titleInformation='Email'
+          userInformation= {userInformations?.email}
+          />
+
+        <InfoUser 
+          titleInformation='Site Web'
+          userInformation= {userInformations?.website}
+          />
+          
         </div>
     </div>
   );

@@ -1,0 +1,9 @@
+.switchButton{
+    background-color: #fff;
+    border: 5px solid #DB3069;
+    border-radius: 20px;
+    margin-top: 50px;
+    padding: 30px 50px;
+    font-size: 20px;
+    font-weight: 600;
+}
