@@ -1,3 +1,14 @@
+/*Arboressence de la page :
+
+Home -> PostPage      -> PostList -> Post
+                                    -> Searchbar 
+            -> ProfilePage -> Profile -> InfoUser
+                                    -> PostList -> Post
+                                    -> BackButton
+*/
+
+
+
 import React, {useEffect, useState} from 'react';
 
 import PostPage from '../components/Fichier Post/PostPage';
